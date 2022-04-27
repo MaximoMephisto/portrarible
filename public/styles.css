@@ -2,5 +2,43 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace; 
+    font-size: 16px;
+    color: #ECB365;
 }
+#body {
+    background-color: #041C32;;
+}
+.bg-nav {
+    background-color: #064663 !important;
+}
+.nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav-link {
+    color: #ECB365 !important;
+    transition: all .5s !important;
+}
+.nav-link:hover {
+    background-color: #041C32;
+}
+#init {
+    color: #ECB365;
+}
+@keyframes bouncing-loader {
+    to {
+      opacity: 0.1;
+      transform: translate3d(0, -16px, 0);
+    }
+}
+.h1-one {
+    animation: bouncing-loader 1.3s infinite alternate;
+}
+.bouncing-loader > .h1-one:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .bouncing-loader > .h1-one:nth-child(3) {
+    animation-delay: 0.4s;
+  }
